@@ -42,7 +42,7 @@ section#login{
     top:50%;
     transform: translate(-50%,-50%);
     
-    width: 250px;
+    width: 258px;
     height: 533px;
 
     border-radius: 20px;
@@ -86,12 +86,12 @@ span{
 div.campo > p >input{
     background-color: #94cfcd;
     font-size: 1em;
-    width: calc(100% -45px);
+    width: calc(100%, -45);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-   transform: translate(30px,-15px);
+   transform: translate(-4px,-4.5px);
 }
 
 div.campo > input:focus-within {
